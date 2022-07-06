@@ -1,4 +1,4 @@
-package com.test;
+package com.test.exceptions;
 
 public class NotValidToVoteException extends Exception{
 }

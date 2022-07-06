@@ -1,6 +1,7 @@
-package com.test;
+package com.test.controllers;
 
 import com.test.beans.Person;
+import com.test.exceptions.NotValidToVoteException;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
